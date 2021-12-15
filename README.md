@@ -17,7 +17,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Lottie
 
-*** Lottie-Web
+###### Lottie-Web
 https://github.com/airbnb/lottie-web
 Use Adobe After effects for animation -> Download as a JSON file, Gif, MP$-> Use in SVG format
 
@@ -27,7 +27,7 @@ https://lottiefiles.com/interactivity
 ###### Lottie Animations Inspo
 https://lottiefiles.com/web-player?lottie_url=https%3A%2F%2Fassets1.lottiefiles.com%2Fdatafiles%2FHN7OcWNnoqje6iXIiZdWzKxvLIbfeCGTmvXmEm1h%2Fdata.json
 
-***Issues
+###### Issues
 No-support for react-lottie
 https://github.com/Gamote/lottie-react/issues/29
 
