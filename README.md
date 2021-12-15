@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+
+
+
+## WIP
+This is a very basic implementation of Lottie animations and Framer Motion to evaluate its feasibility and ease of use. Any feedback or suggestions is appreciated. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,65 +10,56 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
+###### `Npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Lottie
 
-### `yarn test`
+*** Lottie-Web
+https://github.com/airbnb/lottie-web
+Use Adobe After effects for animation -> Download as a JSON file, Gif, MP$-> Use in SVG format
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###### Interactions
+https://lottiefiles.com/interactivity
 
-### `yarn build`
+###### Lottie Animations Inspo
+https://lottiefiles.com/web-player?lottie_url=https%3A%2F%2Fassets1.lottiefiles.com%2Fdatafiles%2FHN7OcWNnoqje6iXIiZdWzKxvLIbfeCGTmvXmEm1h%2Fdata.json
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+***Issues
+No-support for react-lottie
+https://github.com/Gamote/lottie-react/issues/29
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### Framer Motion
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+###### Development First
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Widget interaction examples using Framer for react to see it’s feasibility and ease of development. 
+More info: https://www.framer.com/developers/
+it has support for server-side rendering, gestures, and CSS variables.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+###### Components
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+There's a motion component for every HTML and SVG element, for instance motion.div, motion.circle etc.
+https://www.framer.com/docs/component/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+###### Handshake is on Beta
+https://www.framer.com/docs/guides/handshake/#environments
+https://www.framer.com/developers/handshake/
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+### Alternatives:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ 
+- React-Motion is an animation library that takes an easier approach to create and implement realistic animations. React-Motion makes use of physics in order to create an almost natural animation for React elements.https://www.npmjs.com/package/react-motion
 
-### Advanced Configuration
+- React-spring is a modern animation library that is based on spring physics. It’s highly flexible and covers most animations needed for a user interface. react-spring inherits some properties from React Motion, such as ease of use, interpolation, and performance.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
