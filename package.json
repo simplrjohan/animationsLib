@@ -2,7 +2,7 @@
   "name": "playground",
   "version": "0.1.0",
   "private": true,
-  "homepage": "animationsLib",
+  "homepage": ".",
   "dependencies": {
     "@chamaeleonidae/chmln": "^1.0.0-alpha.2",
     "@emotion/react": "^11.9.0",
