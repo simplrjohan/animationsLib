@@ -32,11 +32,11 @@ export default function App() {
           </li>
         </ul>
         <Routes>
-          <Route exact path="/lotties" element={<Lotties/>}/>
-          <Route exact path="/tab1" element={<Tab1/>}/>
-          <Route exact path="/tab2" element={<Tab2/>}/>
-          <Route exact path="/yesno" element={<YesNoWidget/>}/>
-          <Route exact path="/chameleon" element={<Chameleon/>}/>
+          <Route  path="/gh-pages-url/lotties" element={<Lotties/>}/>
+          <Route  path="/gh-pages-url/tab1" element={<Tab1/>}/>
+          <Route exact path="/gh-pages-url/tab2" element={<Tab2/>}/>
+          <Route exact path="/gh-pages-url/yesno" element={<YesNoWidget/>}/>
+          <Route exact path="/gh-pages-url/chameleon" element={<Chameleon/>}/>
 
 
 
