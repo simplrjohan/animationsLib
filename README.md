@@ -1,5 +1,6 @@
-
-
+---
+permalink: /index.html
+---
 
 ## WIP
 This is a very basic implementation of Lottie animations and Framer Motion to evaluate its feasibility and ease of use. Any feedback or suggestions is appreciated. 
