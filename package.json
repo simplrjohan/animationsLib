@@ -26,6 +26,7 @@
     "react-router-dom": "^6.1.1",
     "react-scripts": "4.0.3",
     "recharts": "^2.1.9",
+    "simplr-storybook-library": "^1.0.0",
     "styled-components": "^5.3.5",
     "web-vitals": "^1.0.1"
   },

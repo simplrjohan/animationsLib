@@ -16,32 +16,34 @@ export const mainListItems = (
   <React.Fragment>
     <ListItemButton>
       <ListItemIcon>
-      <DashboardIcon />
+        <DashboardIcon />
       </ListItemIcon>
-      <ListItem  component={Link} href="/chameleon">Chameleon</ListItem>
+      <ListItem component={Link} href='/'>
+        Chameleon
+      </ListItem>
     </ListItemButton>
+
     <ListItemButton>
-    
-     
       <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
-      <ListItemText primary="Integrations" />
+      <ListItem component={Link} href='/integrations'>
+        <ListItemText primary='Integrations' />
+      </ListItem>
     </ListItemButton>
   </React.Fragment>
 );
 
 export const secondaryListItems = (
   <React.Fragment>
-    <ListSubheader component="div" inset>
-Sub Divider    </ListSubheader>
+    <ListSubheader component='div' inset>
+      Sub Divider{' '}
+    </ListSubheader>
     <ListItemButton>
       <ListItemIcon>
         <AssignmentIcon />
       </ListItemIcon>
-      <ListItemText primary="Item" />
+      <ListItemText primary='Item' />
     </ListItemButton>
-
-  
   </React.Fragment>
 );
