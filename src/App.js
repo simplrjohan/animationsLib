@@ -53,11 +53,11 @@ export default function App() {
         </ul> */}
 
         <Routes>
-          {/* <Route exact path="/animationsLib/lotties" element={<Lotties/>}/>
+          <Route exact path="/animationsLib/lotties" element={<Lotties/>}/>
           <Route exact path="/animationsLib/tab1" element={<Tab1/>}/>
-          <Route exact path="animationsLib/tab2" element={<Tab2/>}/> */}
-          {/* <Route exact path="/yesno" element={<YesNoWidget/>}/> */}
-          <Route exact path='/integrations'  element={<Integrations />} />
+          <Route exact path="animationsLib/tab2" element={<Tab2/>}/>
+          <Route exact path="/yesno" element={<YesNoWidget/>}/>
+          <Route exact path='animationsLib/integrations'  element={<Integrations />} />
           <Route exact path='/' element={<Landing />} />
 
 
