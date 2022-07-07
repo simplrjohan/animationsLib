@@ -10,7 +10,7 @@ import PeopleIcon from '@mui/icons-material/People';
 import BarChartIcon from '@mui/icons-material/BarChart';
 import LayersIcon from '@mui/icons-material/Layers';
 import AssignmentIcon from '@mui/icons-material/Assignment';
-import Link from '@material-ui/core/Link';
+import Link from '@mui/material/Link';
 
 export const mainListItems = (
   <React.Fragment>
